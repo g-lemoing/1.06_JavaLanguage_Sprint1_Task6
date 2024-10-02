@@ -1,9 +1,9 @@
 package nivell1.exercise2.java.com.modules;
 
 public class Persona {
-    private String name;
-    private String surname;
-    private int age;
+    private final String name;
+    private final String surname;
+    private final int age;
 
     public Persona(String name, String surname, int age){
         this.name = name;
